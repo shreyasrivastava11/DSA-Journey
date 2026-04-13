@@ -30,3 +30,5 @@ This repository is updated regularly with new problems and solutions.
 
 ## Collaboration
 This is a collaborative repository. Contributions and suggestions are welcome.
+
+⭐ If you find this helpful, consider giving it a star!
