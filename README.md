@@ -30,7 +30,3 @@ This repository is updated regularly with new problems and solutions.
 
 ## Collaboration
 This is a collaborative repository. Contributions and suggestions are welcome.
-
-## Contributors
-- Shreya Srivastava
-- Your Friend Name
