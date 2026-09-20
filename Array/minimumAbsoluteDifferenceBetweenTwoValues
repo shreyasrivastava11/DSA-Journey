@@ -25,3 +25,43 @@ class Solution {
         return min;
     }
 }
+
+//Optimized
+class Solution {
+    public int minAbsoluteDifference(int[] nums) {
+        int lastOne = -1;
+        int lastTwo = -1;
+        int ans = -1;
+        int min = Integer.MAX_VALUE;
+
+        for(int i = 0;i<nums.length;i++){
+            if(nums[i] == 1){
+                lastOne = i;
+
+                if(lastTwo != -1){
+                    ans = Math.abs(i - lastTwo);
+                    if(min > ans){
+                        min = ans;
+                    }
+                }
+            }
+
+            if(nums[i] == 2){
+                lastTwo = i;
+
+                if(lastOne != -1){
+                    ans = Math.abs(i - lastOne);
+                    if(min > ans){
+                        min = ans;
+                    }
+                }
+            }
+        }
+
+        if(min == Integer.MAX_VALUE){
+            return -1;
+        }
+
+        return min;
+    }
+}
