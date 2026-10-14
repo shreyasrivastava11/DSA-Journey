@@ -42,7 +42,7 @@ class Solution {
 }
 
 class Solution {
-    //Memoization (Bottom-Up Approach)
+    //Tabular (Bottom-Up Approach)
     public int minCostClimbingStairs(int[] cost) {
         int n = cost.length;
         int[] dp = new int[n+1];
