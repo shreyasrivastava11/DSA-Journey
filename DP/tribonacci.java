@@ -20,7 +20,7 @@ class Solution {
 }
 
 class Solution {
-    //Memoization (Bottom Up Approach)
+    //Tabular (Bottom Up Approach)
     public int tribonacci(int n) {
         int[] dp = new int[n+1];
 
